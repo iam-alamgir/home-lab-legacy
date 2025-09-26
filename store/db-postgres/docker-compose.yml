@@ -2,7 +2,7 @@ name: "st-db-postgres"
 
 services:
   postgres:
-    image: docker.io/library/postgres:17-alpine3.22
+    image: docker.io/library/postgres:18-alpine3.22
     container_name: ${PG_CONTAINER_NAME-db-postgres}
     restart: unless-stopped
     security_opt:
